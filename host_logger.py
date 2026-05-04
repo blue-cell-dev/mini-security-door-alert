@@ -3,7 +3,7 @@ from datetime import datetime
 import threading
 import webbrowser
 
-PORT = "COM4"          # change to your ESP32 port
+PORT = "COM4"          # change to ESP32 port
 BAUD = 115200
 LOG_FILE = "security_log.txt"
 
