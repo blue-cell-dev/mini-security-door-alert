@@ -94,23 +94,7 @@ GitHub README best practices recommend placing the main `README.md` in the repos
 7. Watch the host computer log the events in real time
 
 ## Example Serial Messages
-
-```text
 BOOT:READY
 STATUS:ARMED
 ALERT:INTRUSION distance_cm=18.4
 STATUS:DISARMED source=KEYPAD
-```
-
-These messages help demonstrate communication between the ESP32 and the host computer, which is a key part of the project design
-
-## Troubleshooting
-
-- If the red LED does not turn on, recheck LED polarity, resistor placement, and GPIO wiring
-- If the HC-SR04 gives unstable readings, recheck the Echo voltage divider and common ground wiring
-- If the host script does not connect, verify the correct serial port and confirm no other program is using it
-- If keypad input does not match expected keys, verify the keypad wire order and row/column mapping
-
-## Course Requirements Met
-
-This project demonstrates a sensor as input, multiple actuators as outputs, embedded programming on the ESP32, serial communication with a host computer, and external software interaction through a Python script. It is intended to be maintained in a Git repository with a root README so the entire codebase and setup process are documented clearly on GitHub.
