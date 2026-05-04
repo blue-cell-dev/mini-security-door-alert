@@ -3,7 +3,7 @@ import time
 import select
 import sys
 
-# === Pin assignments (your exact wiring) ===
+# === Pin assignments (exact wiring) ===
 TRIG_PIN = 5
 ECHO_PIN = 18
 
