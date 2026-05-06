@@ -46,16 +46,27 @@ GitHub README best practices recommend placing the main `README.md` in the repos
 Pin Setup
 
 | Component | Connection |
+
 | HC-SR04 VCC | VIN |
+
 | HC-SR04 TRIG | GPIO 5 |
+
 | HC-SR04 ECHO | GPIO 18 through voltage divider |
+
 | HC-SR04 GND | GND |
+
 | Buzzer + | GPIO 19 |
+
 | Buzzer - | GND |
+
 | Red LED anode | GPIO 4 through 220 ohm resistor |
+
 | Red LED cathode | GND |
+
 | Green LED anode | GPIO 2 through 220 ohm resistor |
+
 | Green LED cathode | GND |
+
 | Keypad pins | GPIO 13, 12, 14, 27, 26, 25, 33, 32 |
 
 
